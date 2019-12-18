@@ -1,0 +1,130 @@
+Alexs-MacBook-Pro:networking alex$ ./testRetriever.sh 
+
+
+Connected to server------------>www.google.com
+Attempting to get file--------->/index.html
+
+Request: 
+GET /index.html HTTP/1.1
+Host: www.google.com
+
+
+Response:
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2019 00:43:14 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: 1P_JAR=2019-10-26-00; expires=Mon, 25-Nov-2019 00:43:14 GMT; path=/; domain=.google.com; SameSite=none
+Set-Cookie: NID=190=W8gYYb6ognsdlpO9NNio-CewSglkerOh_DiMsjmTyfWHVmj5_YiLoXe_6cpEdgytSh-FunykBojPqO-_l_RN8VUcrTya96BnZE640_FGbLNCH4XLtym8FIaQHNk6aFBp3ZkctrBaNrotc4GO9c4tFmmu9SKIooISVAumOAToGIM; expires=Sun, 26-Apr-2020 00:43:14 GMT; path=/; domain=.google.com; HttpOnly
+Accept-Ranges: none
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+HTML from file /index.html saved in file "requestResponse.txt"
+
+Parsing off "https://" from https://www.facebook.com
+
+Connected to server------------>www.facebook.com
+Attempting to get file--------->/test.html
+
+Request: 
+GET /test.html HTTP/1.1
+Host: www.facebook.com
+
+
+Response:
+HTTP/1.1 302 Found
+Location: https://www.facebook.com/test.html
+Content-Type: text/html; charset="utf-8"
+X-FB-Debug: TFLx6bsVZZjqHnn+HgxEvhwhZrRVYchebtd0tfdyCpluxGnN38z8QTWTR3qAoBVwSCf6gASixBvybZw5T+Ty0A==
+Date: Sat, 26 Oct 2019 00:43:14 GMT
+Alt-Svc: h3-23=":443"; ma=3600
+Connection: keep-alive
+Content-Length: 0
+
+HTML from file /test.html saved in file "requestResponse.txt"
+
+Parsing off "http://" from http://www.streamofbytes.net
+
+Connected to server------------>www.streamofbytes.net
+Attempting to get file--------->/index.html
+
+Request: 
+GET /index.html HTTP/1.1
+Host: www.streamofbytes.net
+
+
+Response:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Thu, 11 Jan 2018 04:10:34 GMT
+Accept-Ranges: bytes
+ETag: "a118cf20928ad31:0"
+Server: Microsoft-IIS/8.0
+X-Powered-By: ASP.NET
+Date: Sat, 26 Oct 2019 00:43:14 GMT
+Content-Length: 223
+
+HTML from file /index.html saved in file "requestResponse.txt"
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BC Prog 109</title>
+</head>
+<body>
+This is the page where I will host all my Bellevue College Prog 109 assignments and sites.
+</body>
+</html>
+
+Connected to server------------>www.alexhvzr.com
+Attempting to get file--------->/index.html
+
+Request: 
+GET /index.html HTTP/1.1
+Host: www.alexhvzr.com
+
+
+Response:
+HTTP/1.1 404 Not Found
+Date: Sat, 26 Oct 2019 00:43:14 GMT
+Server: Apache
+Content-Length: 327
+Content-Type: text/html; charset=iso-8859-1
+
+HTML from file /index.html saved in file "requestResponse.txt"
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /index.html was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+
+Connected to server------------>www.linkedin.com
+Attempting to get file--------->/index.html
+
+Request: 
+GET /index.html HTTP/1.1
+Host: www.linkedin.com
+
+
+Response:
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 26 Oct 2019 00:43:14 GMT
+X-Li-Pop: prod-ela1
+X-LI-Proto: http/1.1
+X-LI-UUID: ynwS1K8L0RVg0+vVhCsAAA==
+Location: https://www.linkedin.com/index.html
+Content-Length: 0
+
+HTML from file /index.html saved in file "requestResponse.txt"
+Alexs-MacBook-Pro:networking alex$ 

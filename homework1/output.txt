@@ -1,0 +1,73 @@
+Note: test one was done on uw machines while tests 2 & 3 tests were done on local host to compare times. Oddly enough the # of reads was constant for local host. 
+
+Repetition = 20000, nbufs = 15, bufsize = 100
+Test 1: round-trip time = 281064 usec, #reads = 21582
+data-sending time = 267392 usec
+Test 2: round-trip time = 66617 usec, #reads = 20001
+data-receiving time = 66471 usec
+Test 3: round-trip time = 48371 usec, #reads = 20001
+data-receiving time = 48322 usec
+
+Repetition = 20000, nbufs = 30, bufsize = 50
+Test 1: round-trip time = 418820 usec, #reads = 23413
+data-sending time = 394856 usec
+Test 2: round-trip time = 83018 usec, #reads = 20001
+data-receiving time = 82986 usec
+Test 3: round-trip time = 49000 usec, #reads = 20001
+data-receiving time = 48930 usec
+
+Repetition = 20000, nbufs = 60, bufsize = 25
+Test 1: round-trip time = 881282 usec, #reads = 35502
+data-sending time = 666889 usec
+Test 2: round-trip time = 119230 usec, #reads = 20001
+data-receiving time = 119155 usec
+Test 3: round-trip time = 48447 usec, #reads = 20001
+data-receiving time = 48388 usec
+
+Repetition = 20000, nbufs = 100, bufsize = 15
+Test 1: round-trip time = 1322268 usec, #reads = 41625
+data-sending time = 1067975 usec
+Test 2: round-trip time = 154103 usec, #reads = 20001
+data-receiving time = 154052 usec
+Test 3: round-trip time = 48195 usec, #reads = 20001
+data-receiving time = 48086 usec
+
+Repetition = 20000, nbufs = 1500, bufsize = 1
+data-sending time = 13644213 usec
+Test 1: round-trip time = 13648521 usec, #reads = 122944
+
+** Broke when I tried to do test 2, or at least I didn't keep waiting for the results after a while. 
+
+
+Repetition = 20000, nbufs = 100, bufsize = 15
+data-sending time = 256858 usec
+Test 1: round-trip time = 275550 usec, #reads = 22366
+Test 2: round-trip time = 66617 usec, #reads = 20001
+data-receiving time = 66471 usec
+Test 3: round-trip time = 48371 usec, #reads = 20001
+data-receiving time = 48322 usec
+
+Repetition = 20000, nbufs = 50, bufsize = 30
+data-sending time = 390816 usec
+Test 1: round-trip time = 391456 usec, #reads = 25614
+Test 2: round-trip time = 83018 usec, #reads = 20001
+data-receiving time = 82986 usec
+Test 3: round-trip time = 49000 usec, #reads = 20001
+data-receiving time = 48930 usec
+
+Repetition = 20000, nbufs = 25, bufsize = 60
+data-sending time = 677442 usec
+Test 1: round-trip time = 677600 usec, #reads = 33029
+Test 2: round-trip time = 119230 usec, #reads = 20001
+data-receiving time = 119155 usec
+Test 3: round-trip time = 48447 usec, #reads = 20001
+data-receiving time = 48388 usec
+
+
+Repetition = 20000, nbufs = 15, bufsize = 100
+data-sending time = 1030466 usec
+Test 1: round-trip time = 1030847 usec, #reads = 34909
+Test 2: round-trip time = 154103 usec, #reads = 20001
+data-receiving time = 154052 usec
+Test 3: round-trip time = 48195 usec, #reads = 20001
+data-receiving time = 48086 usec

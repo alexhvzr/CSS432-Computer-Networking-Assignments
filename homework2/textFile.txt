@@ -1,0 +1,2 @@
+This is a test file to see if the client 
+can access from the server. 

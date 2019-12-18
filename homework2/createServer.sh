@@ -1,0 +1,1 @@
+./Server $1 # When running this, input the port number to listen on. 
